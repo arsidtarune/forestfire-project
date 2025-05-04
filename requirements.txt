@@ -1,5 +1,6 @@
-Flask
-numpy 
+streamlit
+psycopg2
 pandas
-scikit-learn
-
+requests
+python-dotenv
+sqlalchemy

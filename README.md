@@ -1,16 +1,36 @@
-# lab-flask
+# 📈 YouTube Trending Data ETL Pipeline
 
-<!-- ![image](https://user-images.githubusercontent.com/115451707/196919992-edcfea8b-e3f6-4f35-9398-43be66b5622d.png) -->
+A fully automated ETL pipeline that extracts trending YouTube video data daily using Python, and PostgreSQL.  
+Data is visualized using a custom-built Streamlit dashboard.
+
+## 🚀 Features
+- Daily data extraction via YouTube Data API
+- ETL pipeline: extract, transform,and load data
+- PostgreSQL database storage
+- Interactive dashboard with Streamlit
+- Professional modular project structure
+
+## 🛠️ Tech Stack
+- Python 
+- PostgreSQL
+- Streamlit
+- YouTube Data API
+- SQLAlchemy
+- Pandas
 
 
-To run flask application 
+## 📂 Project Structure
+/Project
+│
+│── trending_data.csv
+├── .venv/
+├── extract.py
+├── transform.py
+├── load.py
+├── app.py
+├── requirements.txt
+├── README.md
 
-```
-python app.py
-```
 
-
-To access your flask application open new tab in and paste the url:
-```
-https://{your_url}.pwskills.app:5000/
-```
+## 🧠 Author
+Arsid Tarune(www.linkedin.com/in/arsid-tarune-14506b2b8)
